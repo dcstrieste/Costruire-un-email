@@ -502,230 +502,367 @@
             <div id="feedback1"></div>
         </div>
         
-        <!-- ESERCIZIO 2: QUIZ -->
-        <div id="exercise2" class="exercise">
-            <h2>❓ Esercizio 2: Quiz sull'Email (10 Domande)</h2>
-            <p style="margin: 20px 0;">Rispondi a tutte le domande sull'anatomia dell'email!</p>
-            
-            <div class="question-card">
-                <h3>1. Qual è il campo PIÙ IMPORTANTE di un'email?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Il campo CC</div>
-                    <div class="option" onclick="checkAnswer(this, false)">B) Il destinatario (A)</div>
-                    <div class="option" onclick="checkAnswer(this, true)">C) L'Oggetto (Subject)</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) L'allegato</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>2. Se vuoi inviare un invito a 50 persone proteggendo la loro privacy, dove metti gli indirizzi?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Nel campo A (To)</div>
-                    <div class="option" onclick="checkAnswer(this, false)">B) Nel campo CC</div>
-                    <div class="option" onclick="checkAnswer(this, true)">C) Nel campo CCN (Blind Carbon Copy)</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Nell'oggetto</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>3. Chi può vedere gli indirizzi messi in CCN?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, true)">A) Solo il mittente</div>
-                    <div class="option" onclick="checkAnswer(this, false)">B) Tutti i destinatari</div>
-                    <div class="option" onclick="checkAnswer(this, false)">C) Solo chi è in CCN</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Il destinatario principale e chi è in CC</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>4. Cosa significa CC?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Computer Copy</div>
-                    <div class="option" onclick="checkAnswer(this, true)">B) Carbon Copy (Copia Carbone)</div>
-                    <div class="option" onclick="checkAnswer(this, false)">C) Courtesy Copy</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Client Connection</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>5. Quale NON è un buon oggetto per un'email?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) "Riassunto riunione del 15/10"</div>
-                    <div class="option" onclick="checkAnswer(this, true)">B) "Ciao"</div>
-                    <div class="option" onclick="checkAnswer(this, false)">C) "Domanda su compito di Storia"</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) "Invito alla festa di compleanno"</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>6. Perché NON si deve scrivere tutto in MAIUSCOLO nel corpo dell'email?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Perché occupa più spazio</div>
-                    <div class="option" onclick="checkAnswer(this, true)">B) Perché equivale a URLARE ed è maleducato</div>
-                    <div class="option" onclick="checkAnswer(this, false)">C) Perché rallenta il computer</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Perché non si può fare</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>7. Qual è il simbolo che rappresenta un allegato?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Una stella ⭐</div>
-                    <div class="option" onclick="checkAnswer(this, true)">B) Una graffetta 📎</div>
-                    <div class="option" onclick="checkAnswer(this, false)">C) Una cartella 📁</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Un lucchetto 🔒</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>8. In un'email formale, quali saluti iniziali sono appropriati?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) "Ciao!"</div>
-                    <div class="option" onclick="checkAnswer(this, false)">B) "Ehi!"</div>
-                    <div class="option" onclick="checkAnswer(this, true)">C) "Gentile Prof. Rossi,"</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) "Yo!"</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>9. Quando usi il campo CC?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Quando vuoi nascondere i destinatari</div>
-                    <div class="option" onclick="checkAnswer(this, true)">B) Quando vuoi mettere qualcuno "in copia per conoscenza" in modo visibile</div>
-                    <div class="option" onclick="checkAnswer(this, false)">C) Quando vuoi allegare un file</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Quando vuoi cancellare l'email</div>
-                </div>
-            </div>
-            
-            <div class="question-card">
-                <h3>10. Cosa deve contenere una firma professionale?</h3>
-                <div class="options">
-                    <div class="option" onclick="checkAnswer(this, false)">A) Solo un emoji</div>
-                    <div class="option" onclick="checkAnswer(this, false)">B) Un soprannome</div>
-                    <div class="option" onclick="checkAnswer(this, true)">C) Nome, cognome e informazioni identificative (es. classe)</div>
-                    <div class="option" onclick="checkAnswer(this, false)">D) Niente, la firma non serve</div>
-                </div>
-            </div>
-            
-            <div id="score2" class="score"></div>
-        </div>
         
-        <!-- ESERCIZIO 3: SCENARI -->
-        <div id="exercise3" class="exercise">
-            <h2>🎭 Esercizio 3: Scenari Reali (10 Situazioni)</h2>
-            <p style="margin: 20px 0;">In ogni situazione, scegli il campo corretto da utilizzare!</p>
-            
-            <div class="scenario-card">
-                <h3>Scenario 1:</h3>
-                <p>Devi inviare un report al tuo professore, ma vuoi che anche il tuo compagno di gruppo lo veda.</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 1, false)">Metti il compagno in A</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 1, true)">Metti il compagno in CC</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 1, false)">Metti il compagno in CCN</button>
-                </div>
-                <div id="scenarioFeedback1"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 2:</h3>
-                <p>Stai scrivendo un'email importante ma hai fretta. Cosa NON devi mai dimenticare?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 2, false)">L'allegato</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 2, true)">L'oggetto</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 2, false)">Il CC</button>
-                </div>
-                <div id="scenarioFeedback2"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 3:</h3>
-                <p>Vuoi informare il tuo capo di un problema con un cliente, ma non vuoi che il cliente lo sappia.</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 3, false)">Metti il capo in A</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 3, false)">Metti il capo in CC</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 3, true)">Metti il capo in CCN</button>
-                </div>
-                <div id="scenarioFeedback3"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 4:</h3>
-                <p>Devi inviare una newsletter a 200 clienti. Come proteggi la loro privacy?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 4, false)">Li metti tutti in A</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 4, false)">Li metti tutti in CC</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 4, true)">Li metti tutti in CCN</button>
-                </div>
-                <div id="scenarioFeedback4"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 5:</h3>
-                <p>Nell'indirizzo elena.bianchi@scuola.it, quale parte è il "nome utente"?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 5, true)">elena.bianchi</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 5, false)">elena</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 5, false)">@scuola.it</button>
-                </div>
-                <div id="scenarioFeedback5"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 6:</h3>
-                <p>Devi allegare un certificato medico al professore. Quale tipo di file è appropriato?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 6, true)">Un file PDF</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 6, false)">Un file .exe</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 6, false)">Una foto delle vacanze</button>
-                </div>
-                <div id="scenarioFeedback6"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 7:</h3>
-                <p>Vuoi inviare un reclamo formale. Come scrivi il corpo dell'email?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 7, false)">TUTTO IN MAIUSCOLO</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 7, true)">Con tono calmo e professionale</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 7, false)">Con abbreviazioni e emoji</button>
-                </div>
-                <div id="scenarioFeedback7"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 8:</h3>
-                <p>Devi inviare gli auguri di compleanno al tuo amico via email. Quale oggetto usi?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 8, false)">Lasci l'oggetto vuoto</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 8, false)">"Ciao"</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 8, true)">"Auguri di buon compleanno!"</button>
-                </div>
-                <div id="scenarioFeedback8"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 9:</h3>
-                <p>Cosa significa il simbolo della graffetta (📎) nelle email?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 9, false)">Indica che l'email è stata criptata.</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 9, true)">Indica che l'email contiene un file allegato (es. PDF, foto, documento).</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 9, false)">Indica che l'email è molto importante.</button>
-                </div>
-                <div id="scenarioFeedback9"></div>
-            </div>
-            
-            <div class="scenario-card">
-                <h3>Scenario 10:</h3>
-                <p>Stai inviando una candidatura per un lavoro. Come concludi l'email?</p>
-                <div class="choice-buttons">
-                    <button class="choice-btn" onclick="checkScenario(this, 10, false)">"Ciao ciao"</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 10, true)">"Cordiali saluti," + Nome e Cognome</button>
-                    <button class="choice-btn" onclick="checkScenario(this, 10, false)">"Baci"</button>
-                </div>
-                <div id="scenarioFeedback10"></div>
-            </div>
-            
-            <div id="score3" class="score"></div>
+<!-- ESERCIZIO 2: QUIZ -->
+<div id="exercise2" class="exercise">
+    <h2>❓ Esercizio 2: Quiz sulla posta elettronica (15 domande)</h2>
+    <p style="margin: 20px 0;">
+        Rispondi alle 15 domande.
+        Ogni domanda ha una sola risposta corretta.
+    </p>
+
+    <h3 style="background:#dcfce7; padding:12px; border-radius:10px; color:#166534;">
+        🟢 LIVELLO BASE — Domande 1-5
+    </h3>
+
+    <div class="question-card">
+        <h3>1. A cosa serve principalmente la posta elettronica?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) A organizzare i file sul computer</div>
+            <div class="option" onclick="checkAnswer(this, true)">B) A inviare e ricevere messaggi tramite Internet</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) A cercare informazioni nei siti web</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) A modificare documenti sul computer</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>2. Quale simbolo deve essere presente in un indirizzo e-mail?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) #</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) &amp;</div>
+            <div class="option" onclick="checkAnswer(this, true)">C) @</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) %</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>3. Dove scrivi l'indirizzo della persona a cui vuoi inviare un'e-mail?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, true)">A) Nel campo A</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Nel campo Oggetto</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Nel testo del messaggio</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Nella sezione Allegati</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>4. Che cos'è un allegato in un'e-mail?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Il titolo del messaggio</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) L'indirizzo del mittente</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Una copia del messaggio ricevuto</div>
+            <div class="option" onclick="checkAnswer(this, true)">D) Un file inviato insieme al messaggio</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>5. Dove trovi normalmente le e-mail che hai ricevuto?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Posta inviata</div>
+            <div class="option" onclick="checkAnswer(this, true)">B) Posta in arrivo</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Bozze</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Cestino</div>
+        </div>
+    </div>
+
+    <h3 style="background:#fef3c7; padding:12px; border-radius:10px; color:#92400e;">
+        🟡 LIVELLO MEDIO — Domande 6-10
+    </h3>
+
+    <div class="question-card">
+        <h3>6. Devi inviare un compito al professore e vuoi informare anche i tuoi genitori, mostrando i loro indirizzi agli altri destinatari. Quale campo usi per i genitori?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) A, sostituendo il professore</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Oggetto</div>
+            <div class="option" onclick="checkAnswer(this, true)">C) Cc</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Ccn</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>7. Devi inviare lo stesso avviso a molti compagni senza mostrare a tutti i loro indirizzi e-mail. Quale campo è più adatto?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, true)">A) Ccn</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Cc</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Oggetto</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Testo del messaggio</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>8. Ricevi una circolare e vuoi inviarla a un compagno che non l'ha ricevuta. Quale comando utilizzi?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Rispondi</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Rispondi a tutti</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Sposta nelle bozze</div>
+            <div class="option" onclick="checkAnswer(this, true)">D) Inoltra</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>9. Hai iniziato a scrivere un'e-mail, l'hai salvata ma non l'hai inviata. Dove la ritrovi normalmente?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Posta inviata</div>
+            <div class="option" onclick="checkAnswer(this, true)">B) Bozze</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Posta in arrivo</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Cestino</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>10. Quale Oggetto è più adatto per inviare un compito di informatica al professore?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Ciao professore</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Messaggio importante</div>
+            <div class="option" onclick="checkAnswer(this, true)">C) Consegna compito di informatica</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Buona giornata</div>
+        </div>
+    </div>
+
+    <h3 style="background:#fee2e2; padding:12px; border-radius:10px; color:#991b1b;">
+        🔴 LIVELLO AVANZATO — Domande 11-15
+    </h3>
+
+    <div class="question-card">
+        <h3>11. Un professore invia un'e-mail a te e ad altri studenti. Vuoi comunicare una risposta personale soltanto al professore. Quale comando scegli?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, true)">A) Rispondi</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Rispondi a tutti</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Inoltra</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Aggiungi Cc</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>12. Un'e-mail sembra provenire dalla scuola, ma ti chiede di inserire la password tramite un collegamento sospetto. Qual è il comportamento più sicuro?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Aprire il link e inserire la password</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Rispondere comunicando solo parte della password</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Inoltrare l'e-mail ai compagni per chiedere se funziona</div>
+            <div class="option" onclick="checkAnswer(this, true)">D) Non aprire il link e verificare la richiesta con la scuola tramite canali ufficiali</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>13. Stai inviando un compito al professore. Hai scritto "In allegato trova il mio lavoro", ma ti accorgi che non hai inserito il file. Cosa devi fare prima di inviare?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Cambiare soltanto l'oggetto</div>
+            <div class="option" onclick="checkAnswer(this, true)">B) Usare la graffetta, selezionare il file e verificarne il caricamento</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Inserire il nome del file nel campo Cc</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Inviare il messaggio senza modifiche</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>14. Quale messaggio è più adatto per chiedere formalmente a un professore informazioni su un compito?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, false)">A) Prof, non ho capito niente!!! Mi risponde?</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Ehi prof, mi dici cosa devo fare? 😎</div>
+            <div class="option" onclick="checkAnswer(this, true)">C) Buongiorno professore, le scrivo per chiedere un chiarimento sul compito. La ringrazio. Cordiali saluti.</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Ciao! Vorrei sapere il compito. A presto!</div>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h3>15. Devi inviare un documento a 20 famiglie. Vuoi indicare la scuola come destinatario principale e proteggere la privacy degli indirizzi delle famiglie. Qual è la soluzione migliore?</h3>
+        <div class="options">
+            <div class="option" onclick="checkAnswer(this, true)">A) Mettere la scuola in A e tutte le famiglie in Ccn</div>
+            <div class="option" onclick="checkAnswer(this, false)">B) Mettere la scuola in A e tutte le famiglie in Cc</div>
+            <div class="option" onclick="checkAnswer(this, false)">C) Mettere tutti gli indirizzi delle famiglie nel testo</div>
+            <div class="option" onclick="checkAnswer(this, false)">D) Mettere tutte le famiglie in A e la scuola in Cc</div>
+        </div>
+    </div>
+
+    <div id="score2" class="score"></div>
+</div>
+        
+        
+<!-- ESERCIZIO 3: SCENARI -->
+<div id="exercise3" class="exercise">
+    <h2>🎭 Esercizio 3: Scenari reali (10 situazioni)</h2>
+    <p style="margin:20px 0;">
+        Leggi ogni situazione e scegli la risposta corretta.
+        Ogni domanda ha una sola risposta giusta.
+    </p>
+
+    <!-- LIVELLO BASE -->
+    <h3 style="background:#dcfce7;color:#166534;padding:12px;border-radius:10px;">
+        🟢 LIVELLO BASE — Situazioni 1-3
+    </h3>
+
+    <div class="scenario-card">
+        <h3>Scenario 1: Il primo messaggio</h3>
+        <p>
+            Marco vuole inviare un'e-mail al suo professore
+            per chiedere informazioni sui compiti.
+            Quale operazione deve eseguire per iniziare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 1, false)">Aprire la Posta inviata</button>
+            <button class="choice-btn" onclick="checkScenario(this, 1, true)">Cliccare su Nuovo messaggio</button>
+            <button class="choice-btn" onclick="checkScenario(this, 1, false)">Aprire il Cestino</button>
+        </div>
+        <div id="scenarioFeedback1"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 2: Una foto per un amico</h3>
+        <p>
+            Giulia vuole inviare una fotografia delle vacanze
+            a una sua amica tramite e-mail.
+            Come può aggiungere la fotografia?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 2, true)">Cliccare sulla graffetta e selezionare la foto</button>
+            <button class="choice-btn" onclick="checkScenario(this, 2, false)">Scrivere il nome della foto nell'Oggetto</button>
+            <button class="choice-btn" onclick="checkScenario(this, 2, false)">Inserire il nome della foto nel campo A</button>
+        </div>
+        <div id="scenarioFeedback2"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 3: Una risposta al professore</h3>
+        <p>
+            Luca riceve un'e-mail dal professore e vuole
+            rispondere direttamente al suo messaggio.
+            Quale comando deve utilizzare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 3, false)">Inoltra</button>
+            <button class="choice-btn" onclick="checkScenario(this, 3, false)">Elimina</button>
+            <button class="choice-btn" onclick="checkScenario(this, 3, true)">Rispondi</button>
+        </div>
+        <div id="scenarioFeedback3"></div>
+    </div>
+
+    <!-- LIVELLO MEDIO -->
+    <h3 style="background:#fef3c7;color:#92400e;padding:12px;border-radius:10px;">
+        🟡 LIVELLO MEDIO — Situazioni 4-7
+    </h3>
+
+    <div class="scenario-card">
+        <h3>Scenario 4: Il messaggio alla classe</h3>
+        <p>
+            Il rappresentante di classe deve inviare un avviso
+            a 25 compagni senza mostrare gli indirizzi e-mail
+            degli studenti agli altri destinatari.
+            Quale campo deve utilizzare per i compagni?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 4, false)">Cc</button>
+            <button class="choice-btn" onclick="checkScenario(this, 4, true)">Ccn</button>
+            <button class="choice-btn" onclick="checkScenario(this, 4, false)">A</button>
+        </div>
+        <div id="scenarioFeedback4"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 5: Un avviso da condividere</h3>
+        <p>
+            Sara riceve dal professore un avviso importante.
+            Vuole farlo leggere anche a un compagno che
+            non ha ricevuto il messaggio originale.
+            Quale comando deve usare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 5, true)">Inoltra</button>
+            <button class="choice-btn" onclick="checkScenario(this, 5, false)">Rispondi</button>
+            <button class="choice-btn" onclick="checkScenario(this, 5, false)">Rispondi a tutti</button>
+        </div>
+        <div id="scenarioFeedback5"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 6: Il messaggio incompleto</h3>
+        <p>
+            Andrea sta scrivendo un'e-mail al professore,
+            ma deve uscire e non vuole ancora inviarla.
+            Vuole conservarla per completarla più tardi.
+            Cosa deve fare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 6, false)">Spostarla nel Cestino</button>
+            <button class="choice-btn" onclick="checkScenario(this, 6, false)">Cliccare su Invia</button>
+            <button class="choice-btn" onclick="checkScenario(this, 6, true)">Salvarla nelle Bozze</button>
+        </div>
+        <div id="scenarioFeedback6"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 7: Un'e-mail al dirigente</h3>
+        <p>
+            Martina deve chiedere un'informazione
+            al dirigente scolastico.
+            Quale frase iniziale è più adatta?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 7, false)">Ehi, mi serve un'informazione!</button>
+            <button class="choice-btn" onclick="checkScenario(this, 7, true)">Gentile Dirigente, le scrivo per chiedere un'informazione.</button>
+            <button class="choice-btn" onclick="checkScenario(this, 7, false)">Ciao! Mi può dire una cosa? 😎</button>
+        </div>
+        <div id="scenarioFeedback7"></div>
+    </div>
+
+    <!-- LIVELLO AVANZATO -->
+    <h3 style="background:#fee2e2;color:#991b1b;padding:12px;border-radius:10px;">
+        🔴 LIVELLO AVANZATO — Situazioni 8-10
+    </h3>
+
+    <div class="scenario-card">
+        <h3>Scenario 8: Il messaggio sospetto</h3>
+        <p>
+            Francesco riceve un'e-mail che sembra arrivare
+            dalla segreteria scolastica.
+            Il messaggio contiene un link e chiede
+            di inserire immediatamente la password
+            dell'account scolastico.
+            Cosa dovrebbe fare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 8, false)">Aprire il link e inserire subito la password</button>
+            <button class="choice-btn" onclick="checkScenario(this, 8, false)">Rispondere comunicando la propria password</button>
+            <button class="choice-btn" onclick="checkScenario(this, 8, true)">Non aprire il link e verificare la richiesta con la scuola</button>
+        </div>
+        <div id="scenarioFeedback8"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 9: La risposta al gruppo</h3>
+        <p>
+            Il professore invia un'e-mail a quattro studenti
+            per organizzare un lavoro di gruppo.
+            Paolo vuole rispondere in modo che
+            il professore e tutti gli altri studenti
+            ricevano la sua risposta.
+            Quale comando deve utilizzare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 9, true)">Rispondi a tutti</button>
+            <button class="choice-btn" onclick="checkScenario(this, 9, false)">Rispondi</button>
+            <button class="choice-btn" onclick="checkScenario(this, 9, false)">Inoltra</button>
+        </div>
+        <div id="scenarioFeedback9"></div>
+    </div>
+
+    <div class="scenario-card">
+        <h3>Scenario 10: La consegna del compito</h3>
+        <p>
+            Elena deve consegnare un compito di informatica
+            tramite e-mail.
+            Ha scritto il destinatario, l'Oggetto e il testo.
+            Ha anche allegato il documento.
+            Prima di premere Invia, quale controllo
+            dovrebbe effettuare?
+        </p>
+        <div class="choice-buttons">
+            <button class="choice-btn" onclick="checkScenario(this, 10, false)">Controllare soltanto il colore della scrittura</button>
+            <button class="choice-btn" onclick="checkScenario(this, 10, true)">Controllare destinatario, testo e corretto caricamento dell'allegato</button>
+            <button class="choice-btn" onclick="checkScenario(this, 10, false)">Eliminare l'Oggetto per rendere l'e-mail più breve</button>
+        </div>
+        <div id="scenarioFeedback10"></div>
+    </div>
+
+    <div id="score3" class="score"></div>
         </div>
         
         <!-- ESERCIZIO 4: MATCHING -->
